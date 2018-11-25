@@ -1,0 +1,96 @@
+.board {
+    padding-top: 6.875rem;
+}
+
+.board-1 {
+    color: rgb(0, 0, 0);
+    background: rgb(245, 245, 245);
+    padding: 1rem .5rem 0 .5rem;
+}
+
+.board-2 {
+    color: rgb(0, 0, 0);
+    background: rgb(250, 250, 250);
+    padding: 1rem .5rem 0 .5rem;
+}
+
+.post-1 {
+    color: rgb(51, 51, 51);
+    background: rgb(174, 232, 232);
+}
+
+.post-2 {
+    color: rgb(51, 51, 51);
+    background: rgb(78, 199, 228);
+}
+
+.post {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    padding: 1rem 3rem 0 3rem;
+}
+
+.post ul {
+    padding: 0;
+}
+
+.post img {
+    height: 125px;
+    width: 125px;
+}
+
+.post em {
+    font-size: .975rem;
+    color: rgb(100, 100, 100);
+    margin-left: 1rem;
+}
+
+.post p {
+    font-size: 1.1rem;
+    color: rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+    padding: 2rem;
+}
+
+.post .arrow {
+    position: absolute;
+    top: 3rem;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+    border-right: 25px solid rgb(255, 255, 255);
+    text-align: right;
+}
+
+.post figcaption span {
+    font-size: 2.125rem;
+    font-style: italic;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    right: 0;
+}
+
+.post figcaption ul li {
+    font-size: 1rem;
+    line-height: 1rem;
+}
+
+section.answer {
+    color: rgb(0, 0, 0);
+    background: rgb(245, 245, 245);
+    padding: 2rem;
+}
+
+.answer img {
+    height: 50px;
+    width: 50px;
+    vertical-align: baseline;
+}
+
+a.user:link,
+a.user:visited,
+a.user:hover {
+    vertical-align: middle;
+}

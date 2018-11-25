@@ -1,0 +1,37 @@
+section.content h2 {
+    font-size: 1.563rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+section.content img {
+    margin: 1rem 0;
+}
+
+section.content p,
+section.content blockquote {
+    font-size: 1.125rem;
+    color: rgb(125, 125, 125);
+}
+
+section.content p {
+    font-size: 1.250rem;
+    color: rgb(0, 0, 0);
+    line-height: 1.6;
+}
+
+section.content a:link,
+section.content a:visited,
+section.content a:hover {
+    color: rgb(51, 51, 51);
+}
+
+section.content a:hover {
+    color: rgb(23, 162, 184);
+}
+
+section.content p.text {
+    font-size: 1.075rem;
+    font-style: italic;
+    color: rgb(125, 125, 125);
+}
